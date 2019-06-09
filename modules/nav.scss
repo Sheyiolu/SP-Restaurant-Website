@@ -1,0 +1,99 @@
+/***************************
+Nav Modules
+***************************/
+
+.nav ul {
+    @include extra-small-only {
+
+        background: $text-color;
+        height: 100%;
+        width: 70%;
+        opacity: 0.98;
+        position: fixed;
+        top: 0;
+        right: 0;
+        z-index: 2000;
+        margin-top: 3em;
+    }
+
+}
+
+.nav>ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+
+    @include extra-small-only {
+
+        li a {
+            background: #575658;
+            padding: 0;
+
+            &:hover {
+                background: #787779;
+            }
+        }
+
+        & li a {
+            text-align: left;
+            display: block;
+            width: 100%;
+            font-weight: normal;
+            text-decoration: none;
+            padding: 0.8em 1em;
+            // vertical-align: middle;
+            font-size: 1.1em;
+        }
+
+        li div {
+            width: 100%;
+            text-align: right;
+
+            span {
+                color: white;
+                font-size: 2.2em !important;
+                background: none;
+                margin-right: 0.4em;
+
+                &:hover {
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
+
+.hide-desktop {
+    display: none;
+
+    @include small-and-above {
+        display: block;
+    }
+
+}
+
+.nav-primary {
+    text-align: left;
+
+    @include small-and-above {
+        margin-top: 0px;
+        height: auto;
+
+        li {
+            display: inline-block;
+        }
+    }
+}
+
+.nav-menu {
+    color: #fff;
+    margin-right: -10px;
+
+    &:hover {
+        cursor: pointer;
+    }
+
+    i {
+        font-size: 2em;
+    }
+}

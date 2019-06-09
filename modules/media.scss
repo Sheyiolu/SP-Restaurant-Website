@@ -1,0 +1,43 @@
+/***************** Media Module **********************/
+.media-primary {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.media-space {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.media-body {
+  margin-left: 100px;
+}
+
+.media-body p i>a {
+  text-decoration: none;
+}
+
+.media-body>p {
+  margin-top: 5px;
+  margin-bottom: 20px;
+  line-height: 1.5em;
+}
+
+.media-body>button {
+  margin-top: 20px;
+}
+
+/* Media Object Module */
+
+.media-body {
+  overflow: hidden;
+}
+
+.media-item {
+  float: left;
+
+  i {
+    color: #594a42;
+    font-size: 5em;
+  }
+}

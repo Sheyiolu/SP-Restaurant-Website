@@ -1,0 +1,82 @@
+footer {
+    display: block;
+    text-align: center;
+    font-size: 16px;
+    color: $footer-icon-brown;
+    padding-top: 20px;
+    margin-top: 6px;
+    margin-bottom: 0px;
+
+    @include medium-and-above {
+        text-align: left;
+    }
+
+
+    .media-item-footer {
+        display: inline-block;
+        margin-right: 10px;
+
+        i {
+            font-size: 1.5em;
+            color: $footer-icon-brown;
+        }
+    }
+}
+
+
+#twitter:hover i {
+    color: #38A1F3;
+    transition: ease-in;
+}
+
+#facebook:hover i {
+    color: #ffffff;
+    transition: ease-in;
+}
+
+#google:hover i {
+    color: red;
+    transition: ease-in;
+}
+
+#instagram:hover i {
+    color: #fff;
+    transition: ease-in;
+}
+
+#adres {
+    width: auto;
+    overflow: hidden;
+    line-height: 1.4em;
+}
+
+.logo-footer {
+    height: auto;
+    overflow: hidden;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.footer-item a {
+    color: $footer-icon-brown;
+    cursor: pointer;
+}
+
+@include medium-and-above {
+    #marker-pos {
+        float: left;
+    }
+
+    footer .row {
+        @include flexbox-display;
+        @include flex-flow(row nowrap);
+        @include justify-content(space-evenly);
+    }
+
+    .footer-item {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}

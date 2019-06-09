@@ -1,0 +1,37 @@
+@mixin circle($width) {
+    width: $width;
+    height: $width;
+    border-radius: $width/2;
+}
+
+@mixin flexbox-display {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+}
+
+@mixin flex($values) {
+    -webkit-box-flex: $values;
+    -moz-box-flex: $values;
+    -webkit-flex: $values;
+    -ms-flex: $values;
+    flex: $values;
+}
+
+@mixin flex-flow($values) {
+    -webkit-box-flex-flow: $values;
+    -moz-box-flex-flow: $values;
+    -webkit-flex-flow: $values;
+    -ms-flex-flow: $values;
+    flex-flow: $values;
+}
+
+@mixin justify-content($values) {
+    -webkit-justify-content: $values;
+    -moz-justify-ccontent: $values;
+    -webkit-justify-content: $values;
+    -ms-justify-content: $values;
+    justify-content: $values;
+}

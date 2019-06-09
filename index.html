@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>title</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="scss/styles.css" type="text/css" />
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1"
+    crossorigin="anonymous" />
+  <script>
+    // Picture element HTML5 shiv
+      document.createElement( "picture" );
+  </script>
+  <script src="picturefill.js" async></script>
+  <script src="js/script.js"></script>
+</head>
+
+<body>
+  <header class="header-primary">
+    <div class="container">
+      <a class="logo logo-primary" href="#">
+        <picture>
+          <source type="images/svg+xml" srcset="images/logo.svg" />
+          <img src="images/Logo.png">
+        </picture>
+      </a>
+      <div id="hamburger" class="btn-toggle-menu nav-menu"><i class="fa fa-bars"></i></div>
+      <nav class="nav nav-primary hide-desktop">
+        <ul>
+          <li class="exit-btn">
+            <div><span id="exit">&times;</span></div>
+          </li>
+          <li>
+            <a href="#" class="btn">Home</a>
+          </li>
+          <li>
+            <a href="#" class="btn btn-nav">Services</a>
+          </li>
+          <li>
+            <a href="#" class="btn btn-nav">About</a>
+          </li>
+          <li>
+            <a href="#" class="btn btn-nav">Contact Us</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section class="hero hero-primary hero-body">
+      <div class="container">
+        <picture class="bg-image translucent">
+          <source media="(min-width: 48em)" type="images/svg+xml" srcset="images/AdvCSS_Mod2_hero.jpg" />
+          <img src="images/hero-sm.jpg" />
+        </picture>
+        <div class="hero-body">
+          <h1 class="hero-title">Hero Primary Title Content</h1>
+          <h4 class="hero-subtitle">Hero Primary Subtitle Content</h4>
+          <button class="btn btn-hero">Button Text</button>
+        </div>
+      </div>
+    </section>
+    <section class="content-area">
+      <div class="container">
+        <div class="row flexbox-sm flexbox-sm-row-reverse">
+          <div class="col-1-3">
+            <div class="frame frame-primary mask mask-primary">
+              <img src="images/cooking.jpg" alt="chef cooking a delicacy" />
+            </div>
+          </div>
+          <div class="col-2-3">
+            <div class="chef-intro">
+              <h2>Lorem Ipsum Sit </h2>
+              <p class="chef-body">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas et felis at felis ullamcorper
+                efficitur ut at lorem. Integer maximus mi eu dui laoreet ultrices ut nec leo. Etiam urna purus,
+                facilisis at lacus convallis, fringilla posuere enim. Etiam vel tincidunt erat, et bibendum risus.
+                Donec vehicula in ante sed posuere. Sed a consequat nunc, quis tristique neque. Mauris suscipit cursus
+                est, quis pellentesque sem imperdiet vitae. Sed aliquam tincidunt dolor eu faucibus. Duis in mollis
+                nibh. Nullam nec leo eu mi facilisis tempus rhoncus vitae metus. Cras ut posuere sem, quis elementum
+                dui. Nunc ut malesuada magna, non volutpat quam. Integer efficitur nibh eu semper suscipit. Vestibulum
+                suscipit a odio eget tempor. Aenean velit ipsum, malesuada a lectus euismod, fermentum suscipit neque.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="feature-group">
+      <div class="container">
+        <div class="row">
+          <div class="col-1-3 remove-gutter-xs" id="feature-1">
+            <div class="hero-featured">
+              <div class="media-featured hero-body background-tertiary">
+                <img src="images/feature-1.jpg" />
+                <div class="tag btn-nav background-tertiary">
+                  <h3>
+                    Lorem Ipsum
+                  </h3>
+                </div>
+              </div>
+              <div class="feature-body">
+                <h2>Lorem Ipsum</h2>
+                <p class="feature">
+                  Lorem Ipsum dolor sit amet, consectetur adipiscing elit.
+                  Donec finibus nunc id congue mattis. Sed vel tincidunt
+                  enim. Aliquam solicitudin nisl sit amet ullacorper eleifend.
+                  Curabitur feugiat uma a purus fringilla.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-1-3 remove-gutter-xs" id="feature-2">
+            <div class="hero-featured">
+              <div class="media-featured hero-body background-primary">
+                <img src="images/feature-2.jpg" />
+                <div class="tag btn-nav background-primary">
+                  <h3>
+                    Lorem Ipsum
+                  </h3>
+                </div>
+              </div>
+              <div class="feature-body">
+                <h2>Lorem Ipsum</h2>
+                <p class="feature">
+                  Lorem Ipsum dolor sit amet, consectetur adipiscing elit.
+                  Donec finibus nunc id congue mattis. Sed vel tincidunt
+                  enim. Aliquam solicitudin nisl sit amet ullacorper eleifend.
+                  Curabitur feugiat uma a purus fringilla.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-1-3 remove-gutter-xs" id="feature-3">
+            <div class="hero-featured">
+              <div class="media-featured hero-body background-secondary">
+                <img src="images/feature-3.jpg" />
+                <div class="tag btn-nav background-secondary">
+                  <h3>
+                    Lorem Ipsum
+                  </h3>
+                </div>
+              </div>
+              <div class="feature-body">
+                <h2>Lorem Ipsum</h2>
+                <p class="feature">
+                  Lorem Ipsum dolor sit amet, consectetur adipiscing elit.
+                  Donec finibus nunc id congue mattis. Sed vel tincidunt
+                  enim. Aliquam solicitudin nisl sit amet ullacorper eleifend.
+                  Curabitur feugiat uma a purus fringilla.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="testimonial testimonial-primary bg-image">
+      <img class="translucent" src="images/testimonial-bg.jpg" />
+      <div class="container">
+        <div class="hero-body">
+          <div class="media">
+            <div class="testimonial-rate">
+              <div class="media-item-star">
+                <i class="fa fa-star"></i>
+              </div>
+              <div class="media-item-star">
+                <i class="fa fa-star"></i>
+              </div>
+              <div class="media-item-star">
+                <i class="fa fa-star"></i>
+              </div>
+              <div class="media-item-star">
+                <i class="fa fa-star"></i>
+              </div>
+              <div class="media-item-star">
+                <i class="fa fa-star"></i>
+              </div>
+            </div>
+            <p id="testimonial-text" class="feature">
+              <i>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec finibus nunc id congue mattis. Sed vel
+                tincidunt
+                enim. Aliquam sollicitudin nisl sit amet ullamcorper eleifend. Curabitur feugiat uma a purus fringilla"
+                <b>- Lorem Ipsum</b>
+              </i>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="background-quinary media-primary">
+      <div class="container">
+        <div class="row">
+          <div class="col-1-2">
+            <div class="media-space">
+              <div class="media-item">
+                <i class="fa fa-pagelines"></i>
+              </div>
+              <div class="media-body">
+                <h4 class="media-heading">Lorem Ipsum Dolor</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec finibus nunc id congue mattis. Sed
+                  vel tincidunt
+                  enim. Aliquam sollicitudin nisi sit amet ullamcorper eleifend. <i><a href="#">Read More...</a></i>
+                </p>
+                <button class="btn btn-primary">Click Me</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-1-2">
+            <div class="media-space">
+              <div class="media-item">
+                <i class="fa fa-tags"></i>
+              </div>
+              <div class="media-body">
+                <h4 class="media-heading">Lorem Ipsum Dolor</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec finibus nunc id congue mattis. Sed
+                  vel tincidunt
+                  enim. Aliquam sollicitudin nisi sit amet ullamcorper eleifend. <i><a href="#">Read More...</a></i></p>
+                <button class="btn btn-primary">Click Me</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="background-quaternary">
+    <div class="container">
+      <div class="row">
+        <div class="logo-footer">
+          <a href="#">
+            <picture>
+              <source type="images/svg+xml" srcset="images/logo.svg" />
+              <img src="images/Logo.png">
+            </picture>
+          </a>
+        </div>
+        <div class="footer-item ">
+          <div class="media-item-footer" id="marker-pos">
+            <i class="fa fa-map-marker"></i>
+          </div>
+          <div id="adres">
+            Company name<br />
+            5555 Address St. #555<br />
+            Lagos, Lagos State.
+          </div>
+        </div>
+        <div class="footer-item">
+          <div class="media-item-footer">
+            <i class="fa fa-phone"></i>
+          </div>
+          5555 123 4567
+        </div>
+        <div class="footer-item">
+          <div class="media-item-footer" id="twitter">
+            <a>
+            <i class="fa fa-twitter"></i>
+          </a>
+          </div>
+          <div class="media-item-footer" id="facebook">
+            <a>
+            <i class="fa fa-facebook"></i>
+          </a>
+          </div>
+          <div class="media-item-footer" id="google">
+            <a>
+            <i class="fa fa-google-plus"></i>
+          </a>
+          </div>
+          <div class="media-item-footer" id="instagram">
+            <a>
+            <i class="fa fa-instagram"></i>
+          </a>
+          </div>
+        </div>
+        <div class="footer-item">
+          <div>
+            <a>
+              Private policy
+            </a>
+          </div>
+          <div>
+            <a>
+              Terms of Use
+            </a>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>

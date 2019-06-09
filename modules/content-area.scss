@@ -1,0 +1,20 @@
+.content-area {
+    display: block;
+
+    &::after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+}
+
+.chef-intro {
+    @include small-and-above {
+        margin: 30px 0px;
+    }
+}
+
+.chef-body {
+    line-height: 1.5em;
+    margin-bottom: 20px;
+}

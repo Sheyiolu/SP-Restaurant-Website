@@ -1,0 +1,41 @@
+/******************* Feature Module *************************/
+
+@include medium-only {
+    .hero-featured {
+        margin: 0px auto;
+        max-width: 400px;
+        overflow: hidden;
+    }
+}
+
+#feature-group {
+    @include small-and-above {
+        padding-bottom: 10px;
+    }
+}
+
+.media-featured {
+    height: 204px;
+    overflow: hidden;
+
+    img {
+        padding-top: 5px;
+    }
+}
+
+.feature-body {
+    text-align: left;
+
+     h2 {
+        line-height: 1.5em;
+     }
+}
+
+.feature {
+    line-height: 1.3em;
+    margin-bottom: 20px;
+}
+
+.chef-intro h2 {
+    line-height: 1.5em;
+}

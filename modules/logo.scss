@@ -1,0 +1,30 @@
+/***************************
+Logo Modules
+***************************/
+.logo {
+  overflow: hidden;
+  display: inline-block;
+}
+
+header .container:first-child {
+  @include extra-small-only {
+    float: left;
+  }
+
+}
+
+.logo-primary {
+  width: 54px;
+  height: 54px;
+  margin-right: auto;
+  
+  @include medium-and-above {
+    width: auto;
+    height: 50px;
+    padding-top: 0px;
+  }
+}
+
+.logo-primary img {
+  height: 100%;
+}

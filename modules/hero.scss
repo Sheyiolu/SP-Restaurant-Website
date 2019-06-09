@@ -1,0 +1,53 @@
+/***************** Hero Modules **********************/
+.hero {
+  text-align: center;
+  // position: relative;
+}
+
+.hero-primary {
+  background-color: #594a42;
+  color: white;
+  padding-top: 55px;
+  padding-bottom: 25px;
+
+  @include small-and-above {
+    padding-top: 150px;
+  }
+}
+
+.translucent {
+  opacity: 0.55;
+}
+
+.hero-body {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+
+  .bg-image {
+    position: absolute;
+    top: -9999px;
+    bottom: -9999px;
+    left: -9999px;
+    right: -9999px;
+    margin: auto;
+    min-width: 100%;
+  }
+}
+
+.hero-title {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  font-size: 2.625em;
+}
+
+.hero-subtitle {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  font-size: 1.625em;
+  font-weight: normal;
+}
+
+.hero-subtitle+button {
+  margin-top: 25px;
+}
